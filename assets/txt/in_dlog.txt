@@ -1,0 +1,1862 @@
+#SMA("LOROM00")
+#VAR(dialogue,TABLE)
+#ADDTBL("./assets/txt/lfte.tbl", dialogue)
+#ACTIVETBL(dialogue)
+#EMBTYPE("LOROM00", 16, $00)
+
+
+#JMP($108000, $10FFFF)
+
+#EMBSET($0000)
+#EMBSET($0001)
+#EMBSET($0002)
+#EMBSET($0003)
+#EMBSET($0004)
+#EMBSET($0005)
+#EMBSET($0006)
+#EMBSET($0007)
+#EMBSET($0008)
+#EMBSET($0009)
+#EMBSET($000A)
+#EMBSET($000B)
+#EMBSET($000C)
+#EMBSET($000D)
+#EMBSET($000E)
+#EMBSET($000F)
+#EMBSET($0010)
+#EMBSET($0011)
+#EMBSET($0012)
+#EMBSET($0013)
+#EMBSET($0014)
+#EMBSET($0015)
+#EMBSET($0016)
+#EMBSET($0017)
+#EMBSET($0018)
+#EMBSET($0019)
+#EMBSET($001A)
+#EMBSET($001B)
+#EMBSET($001C)
+#EMBSET($001D)
+#EMBSET($001E)
+#EMBSET($001F)
+#EMBSET($0020)
+#EMBSET($0021)
+#EMBSET($0022)
+#EMBSET($0023)
+#EMBSET($0024)
+#EMBSET($0025)
+#EMBSET($0026)
+#EMBSET($0027)
+#EMBSET($0028)
+#EMBSET($0029)
+#EMBSET($002A)
+#EMBSET($002B)
+#EMBSET($002C)
+#EMBSET($002D)
+#EMBSET($002E)
+#EMBSET($002F)
+#EMBSET($0030)
+#EMBSET($0031)
+#EMBSET($0032)
+#EMBSET($0033)
+#EMBSET($0034)
+#EMBSET($0035)
+#EMBSET($0036)
+#EMBSET($0037)
+#EMBSET($0038)
+#EMBSET($0039)
+#EMBSET($003A)
+#EMBSET($003B)
+#EMBSET($003C)
+#EMBSET($003D)
+#EMBSET($003E)
+#EMBSET($003F)
+#EMBSET($0040)
+
+//[$02D21B]
+#EMBWRITE($0000)
+//<$E7><$93><$06><$E6><$14><$00>SDキャラが コロニーにうつりすむように<line>
+//なってから はんせいき<$E6><$78><$00> SDネイションは<line>
+//へいわでおだやかな はってんをつづけていた<$E6><$B4><$00><clear>
+<$E7><$93><$06><$E6><$14><$00>
+It has been half a century<line>
+since the SD Characters<line>
+moved to a space colony.<$E6><$78><$00><line>
+The SD Nation continued to<line>
+develop in peace.<$E6><$B4><$00><clear>
+
+//<$E7><$96><$06><$E6><$14><$00>ところが あるひ SDネイションをつかさどる<line>
+//かんきょうかんりそうちが げんいんふめいの<line>
+//ぼうそうをはじめ SDヒーローのもつ<line>
+//<$E6><$B4><$00>そのとくしゅのうりょくが ほとんど<line>
+//つかえなくなってしまった<$E6><$B4><$00><clear>
+<$E7><$96><$06><$E6><$14><$00>
+However, one day the<line>
+Climate Control System<line>
+malfunctioned for unknown<line>
+reasons.<$E6><$B4><$00><line>
+As a result, the SD Heroes<line>
+began to lose their special<line>
+abilities.<$E6><$B4><$00><clear>
+
+//<$E7><$99><$06><$E6><$14><$00>こうなったら へいわもなにも あったもんじゃない<$E6><$B4><$00><clear>
+<$E7><$99><$06><$E6><$14><$00>
+Without them, they had no<line>
+way to preserve peace...<$E6><$B4><$00><clear>
+
+//<$E7><$9C><$06><$E6><$14><$00>きょうあくな モンスターは すきかってに<line>
+//あばれだし<$E6><$B4><$00><clear>
+<$E7><$9C><$06><$E6><$14><$00>
+... and evil monsters were<line>
+free to run amok.<$E6><$B4><$00><clear>
+
+//<$E7><$9F><$06><$E6><$14><$00>SDネイションは さながら むほうちたいと<line>
+//なってしまった<$E6><$B4><$00><clear>
+<$E7><$9F><$06><$E6><$14><$00>
+The SD Nation quickly<line>
+devolved into chaos.<$E6><$B4><$00><clear>
+
+//<$E7><$A2><$06><$E6><$14><$00>ちからのつよいものだけが しはいする<line>
+//じゃくにくきょうしょくのせかい<line>
+//へいわだったSDネイションは<line>
+//もう もどらないのか?<$E6><$B4><$00><clear>
+<$E7><$A2><$06><$E6><$14><$00>
+The strong thrived, and the<line>
+weak suffered. Was there no<line>
+way to bring peace back to<line>
+the SD Nation?<$E6><$B4><$00><clear>
+
+//<$E7><$A5><$06><$E6><$14><$00>そんなじゅうみんたちの たったひとつのきぼうは<line>
+//せかいにちらばる 4このガチャポンカプセルだった<$E6><$B4><$00><clear>
+<$E7><$A5><$06><$E6><$14><$00>
+Indeed, there was one hope:<line>
+the four Gachapon Capsules,<line>
+spread around the world.<$E6><$B4><$00><clear>
+
+//でんせつでは そのカプセルを 4こそろえたものはうちゅうの すべてのちからをかんじとり<line>
+//どんなねがいもかなうという<$E6><$B4><$00><clear>
+According to the legends,<line>
+they can grant any wish to<line>
+whoever gathers all four.<$E6><$B4><$00><clear>
+
+//それさえあれば ふたたび へいわをとりもどす<line>
+//ことができるのだ<line>
+//しかしどこに まただれが<line>
+//そのカプセルをさがしにいくのか?<$E6><$B4><$00><clear>
+Surely they could bring<line>
+peace back. But where could<line>
+they be? And was anyone<line>
+brave enough to seek them?<$E6><$B4><$00><clear>
+
+//みんながそうおもったとき<line>
+//4にんの ゆうきあるせんしがたちあがった!<$E6><$B4><$00><clear>
+That's when four brave<line>
+warriors stepped up to<line>
+the challenge!<$E6><$B4><$00><clear>
+
+//<$E7><$A8><$06><$E6><$14><$00>そのなを ウルトラマングレート<$E6><$3C><$00> ガンダムF91<line>
+//<$E6><$3C><$00>ライダーRX<$E6><$3C><$00> ファイターロア<line>
+//<$E6><$78><$00>はたしてかれらは ぶじ カプセルを<line>
+//さがしだすことが できるのであろうか<$E6><$B4><$00><clear>
+<$E7><$A8><$06><$E6><$14><$00>Ultraman Great,<$E6><$3C><$00> Gundam F91,<line>
+<$E6><$3C><$00>Rider RX,<$E6><$3C><$00> Fighter Roar.<line>
+<$E6><$78><$00>They promised to find<line>
+the Capsules.<$E6><$B4><$00><clear>
+
+//4にんは ふあんときぼうをむねにひめ いま<line>
+//たびだつことをけついした<line>
+//<line>
+//<$E6><$B4><$00><clear>
+With a mix of uneasiness<line>
+and hope, the four heroes<line>
+left on their journey.<line>
+<$E6><$B4><$00><clear>
+
+//<$E7><$AB><$06><$E6><$14><$00>だが ちきゅうから もっともはなれたところに<line>
+//いちするコロニーサイド3の きょうふとさつりくのはおう ダークブレインが そのカプセルをねらっていることを<$E6><$2C><$01><clear>
+<$E7><$AB><$06><$E6><$14><$00>
+However, unbeknownst to<line>
+them, someone else desired<line>
+the Capsules:<$E6><$B4><$00><line>
+Dark Brain, the blood-<line>
+thirsty tyrant of Side 3,<line>
+a space colony far, far<line>
+away from Earth.<$E6><$2C><$01><clear>
+
+//<$E7><$AE><$06><$E6><$14><$00>まだだれもしるよしもなかった<$E6><$2C><$01><clear>
+//<end>
+<$E7><$AE><$06><$E6><$14><$00>
+... But they would find out<line>
+soon enough...<$E6><$2C><$01><clear>
+<end>
+
+//[$02D55C]
+#EMBWRITE($0001)
+//<$E7><$B0><$04><$E6><$14><$00>4にんは ウルトラマンキングの きゅうでんに<line>
+//でむいた<sect><clear>
+//「おお SDヒーローよ カプセルのひとつは<line>
+//みなとにいる ニューガンダムがもっている<sect><line>
+//まずは かれをさがしだすことだ<sect><line>
+//すべてはきみらに かかっている<line>
+//,,,たのむぞ」<sect><end>
+<$E7><$B0><$04><$E6><$14><$00>
+The four heroes visited<line>
+Ultraman King at his<line>
+palace.<sect><clear>
+"Welcome, SD Heroes!<line>
+Nu Gundam at the port has<line>
+one of the Capsules.<sect><line>
+You should talk to him<line>
+before anything else.<sect><line>
+You are our only hope...<line>
+Good luck!"<sect><end>
+
+//[$02D5D6]
+#EMBWRITE($0002)
+//<$E7><$B3><$04><$E6><$14><$00>「あっニューガンダム!」<sect><clear>
+//<$E7><$B6><$04><$E6><$14><$00>「おいっ しっかりしろ!」<line>
+//「すまんカプセルを,,,」<line>
+//「とられたのか!?」<line>
+//「あのうちゅうせんに もっていかれちまった<line>
+//どうやら めいおうせいへ いくらしい」<sect><clear>
+//<$E7><$B9><$04><$E6><$14><$00>「おい まだまにあうぞ!いそいであとをおうんだ」「まっまて!いくらなんでも そりゃむちゃだ<line>
+//おいやめろ!!」<$E6><$B4><$00><clear>
+//<$E7><$BC><$04><$E6><$14><$00>4にんは ニューガンダムの とめるのもきかず<line>
+//およいであとを おうのだった<sect><end>
+<$E7><$B3><$04><$E6><$14><$00>
+"Oh no! Nu Gundam!"<sect><clear>
+<$E7><$B6><$04><$E6><$14><$00>
+"Hang in there!"<sect><line>
+"I'm sorry, they got it..."<sect><line>
+"The Capsule?!"<sect><line>
+"They took it to that<line>
+spaceship. I heard they're<line>
+heading for Pluto..."<sect><clear>
+<$E7><$B9><$04><$E6><$14><$00>
+"We can still make it if<line>
+we hurry!"<sect><line>
+"Don't!<line>
+It's too dangerous!<line>
+WAIT!"<$E6><$B4><$00><clear>
+<$E7><$BC><$04><$E6><$14><$00>
+But they wouldn't listen to<line>
+Nu Gundam's warning. They<line>
+flapped their arms as hard<line>
+as they could.<sect><end>
+
+//[$02D6AF]
+#EMBWRITE($0003)
+//<$E7><$BF><$04><$E6><$14><$00>ひっしのおもいで ふねにたどりついたが<line>
+//ふねは せいびふりょうのため そのしんろを<line>
+//おおきくかえてしまった<$E6><$DC><$00><end>
+<$E7><$BF><$04><$E6><$14><$00>
+They gave it their all...<line>
+and succeeded.<$E6><$B4><$00><line>
+However, due to poor<line>
+maintenance, the ship<line>
+strayed largely off<line>
+course...<$E6><$DC><$00><end>
+
+
+//[$02D6EE]
+#EMBWRITE($0004)
+//<$E7><$C2><$04><$E6><$14><$00>「やった!ひとつてにいれたぞ!」<sect><clear>
+//<$E7><$C5><$04><$E6><$14><$00>「おい みろ!<line>
+//やはり しんろが かわったようだ<line>
+//しっかり なにかに つかまるんだ!!」<sect><clear>
+//<$E7><$C8><$04><$E6><$DC><$00><end>
+<$E7><$C2><$04><$E6><$14><$00>
+"We did it!<line>
+We got the first Capsule!"<sect><clear>
+<$E7><$C5><$04><$E6><$14><$00>
+"Hey, look!<line>
+We're going off course!<line>
+Grab onto something!!"<sect><clear>
+<$E7><$C8><$04><$E6><$DC><$00><end>
+
+//[$02D741]
+#EMBWRITE($0005)
+//<$E7><$88><$05><$E6><$14><$00>つきへおりたったSDヒーロー そこはかつて<line>
+//ウルトラマンタロウがとうちする げつめん<line>
+//ステーションとして さかえたとしだった<$E6><$90><$01><clear>
+//しかし いつのまにか みるもむざんな はいきょとかしていた<$E6><$50><$00><sect><clear>
+//<$E7><$CE><$04><$E6><$14><$00>「ウルトラのはは いったいどういうことです<line>
+//このきちのありさまは それにタロウは<line>
+//どこへいったんです」<$E6><$B4><$00><clear>
+//<$E6><$8C><$00>「タロウ,,,だれですか それ?」<$E6><$B4><$00><clear>
+//<$E6><$8C><$00>「なにをいってるんです あなたのむすこのタロウ<line>
+//ですよ」<$E6><$B4><$00><clear>
+//<$E6><$8C><$00>「タロウどころか わたしにはこどもなど,,,<line>
+//でも あのときウルトラのちちとけっこんしていればこどものひとりくらいいたかも,,,」<sect><clear>
+//<$E7><$D1><$04><$E6><$14><$00>「えっ ちちとけっこんしていないっ!?」<$E6><$B4><$00><clear>
+//<$E6><$8C><$00>「ええ じつは いまからやく1まん5せんねんほどまえ ダークブレインのぶかだと なのるものたちがタイムマシンで みらいからあらわれ けっこんしきじょうにいたちちを つれさってしまったのです」<sect><clear>
+//<$E7><$D4><$04><$E6><$14><$00>「みらいから,,,?<line>
+//わかったぞ タロウはいないんじゃなくて<line>
+//うまれていないんだ!!」<$E6><$B4><$00><clear>
+//<$E6><$8C><$00>「きちのおくに タイムマシンがかくされている<line>
+//のですが けいびがきびしく いまはもうだれも<line>
+//いくひとはいません」<sect><clear>
+//<$E7><$D7><$04><$E6><$14><$00>「ダークブレインめ なんてやつだ れきしまで<line>
+//かえやがって<line>
+//よし オレたちで そのタイムマシンを<line>
+//うばいにいこう みんな いくぞ!」<sect><end>
+<$E7><$88><$05><$E6><$14><$00>
+The SD Heroes arrived at<line>
+the moon, at the site of<line>
+the Lunar Station.<sect><line>
+Once, this place flourished<line>
+under Ultraman Taro's<line>
+management.<$E6><$90><$01><clear>
+But this place, too,<line>
+descended into chaos...<$E6><$50><$00><sect><clear>
+<$E7><$CE><$04><$E6><$14><$00>
+"Mother of Ultra, what's<line>
+going on here? Why is the<line>
+base in ruins? And where's<line>
+Taro?"<$E6><$B4><$00><clear>
+<$E6><$8C><$00>
+"Taro? Who's that?"<$E6><$B4><$00><clear>
+<$E6><$8C><$00>
+"Come on, skip the jokes!<line>
+You know, Taro! Your son!"<$E6><$B4><$00><clear>
+<$E6><$8C><$00>
+"But I don't have any<line>
+children...<sect><line>
+If I had married Father of<line>
+Ultra, I might have had<line>
+one..."<sect><clear>
+<$E7><$D1><$04><$E6><$14><$00>
+"Whoa, hold on!<line>
+You never married him?!"<$E6><$B4><$00><clear>
+<$E6><$8C><$00>
+"Indeed. It happened about<line>
+15,000 years ago, but I<line>
+still remember it clearly.<sect><line>
+Minions of Dark Brain<line>
+showed up during the<line>
+ceremony and kidnapped<line>
+Father of Ultra.<sect><line>
+They claimed to have<line>
+traveled from the future<line>
+with a time machine.<sect><clear>
+<$E7><$D4><$04><$E6><$14><$00>
+"From the future...? I get<line>
+it!<sect><line>
+It's not that Taro isn't<line>
+here... He was never born<line>
+in the first place!"<$E6><$B4><$00><clear>
+<$E6><$8C><$00>
+"The time machine is<line>
+somewhere in this base,<line>
+but it's heavily guarded.<sect><line>
+They won't let anyone get<line>
+close to it."<sect><clear>
+<$E7><$D7><$04><$E6><$14><$00>
+"I can't believe Dark Brain<line>
+would stoop to changing<line>
+history!<sect><line>
+Let's go, guys! We're<line>
+getting that time machine!"<sect><end>
+
+//[$02D9A7]
+#EMBWRITE($0006)
+//<$E7><$DA><$04><$E6><$14><$00>「よし タイムマシンにのりこもう!」<sect><clear>
+//<$E7><$DD><$04><$E6><$3C><$00>「スイッチ ON!」<sect><clear>
+//<$E6><$14><$00><$E7><$2C><$07>SDヒーローをのせたタイムマシンは いま<line>
+//かこへと たびたっていった<sect><end>
+<$E7><$DA><$04><$E6><$14><$00>
+"Alright! Let's get in the<line>
+time machine!"<sect><clear>
+<$E7><$DD><$04><$E6><$4C><$00>
+"Switch on!"    <sect><clear>
+<$E6><$14><$00><$E7><$2C><$07>
+The SD Heroes activated the<line>
+time machine and headed for<line>
+the past...<sect><end>
+
+//[$02D9FD]
+#EMBWRITE($0007)
+//<$E7><$E0><$04><$E6><$30><$02>むかしのつきについたが そこには メチャクチャにこわされた けっこんしきじょうがあった<sect><clear>
+//「しまった いっぽおそかったか!!」<sect><clear>
+//<$E7><$E3><$04><$E6><$14><$00>「あっ ウルトラのはは!」<sect><clear>
+//「いまさっき ダークブレインしんえいたいと<line>
+//なのるものが とつぜんあらわれ<line>
+//あのひとが,,,<sect><line>
+//おねがいウルトラのちちをたすけて!!」<sect><clear>
+//「わかりました ぼくたちにまかせてください!」<sect><clear>
+//「あっそうだわ ボスのスカルナイトは 30びょういないに たおさないと ちきゅうにいる ゴーデスが いじょうをかぎつけて やっかいなことに<line>
+//なるわ だからいそいで たおしてください」<sect><end>
+<$E7><$E0><$04><$E6><$30><$02>
+The SD Heroes reached the<line>
+moon from the past. Once<line>
+there, they noticed a<line>
+ruined chapel.<sect><clear>
+"Oh no! We're too late!"<sect><clear>
+<$E7><$E3><$04><$E6><$14><$00>
+"Look!<line>
+It's Mother of Ultra!"<sect><clear>
+"Soldiers working for<line>
+someone called Dark Brain<line>
+appeared out of nowhere!<sect><line>
+They took Father of Ultra!<sect><line>
+Please, save him!!"<sect><clear>
+"Leave it to us!"<sect><clear>
+"Oh, before I forget!<sect><line>
+If you can't defeat the<line>
+boss, Skull Knight, within<line>
+30 seconds,<sect><line>
+Gudis down on Earth will<line>
+know that something's the<line>
+matter!<sect><line>
+If he realizes, he might do<line>
+something nasty! You have<line>
+to be quick!"<sect><end>
+
+//[$02DB14]
+#EMBWRITE($0008)
+//<$E7><$E6><$04><$E6><$14><$00>「ウルトラのちち!だいじょうぶですか?」<$E6><$B4><$00><clear>
+//<$E6><$8C><$00>「ああ ありがとう たすかった<line>
+//そうだ あいつはぶじか?」<sect><clear>
+//<$E7><$E9><$04><$E6><$14><$00>「ははですか?ええ だいじょうぶですよ<line>
+//だけど せっかくのけっこんしきが,,,<line>
+//そうだ!ウルトラのちち ぼくたちにけっこんしきをあげさせてください!」<$E6><$F0><$00><clear>
+//<$E6><$8C><$00>「きみたちが!?」<sect><clear>
+//<$E7><$EC><$04><$E6><$14><$00>4にんは ウルトラのちち はは のためにけっこんしきを あげるのであった<$E6><$3C><$00><clear>
+//<$E6><$84><$03>「ええっと なんじは なんじを<line>
+//,,,ちかいますか?」<sect><clear>
+//<$E7><$EF><$04><$E6><$14><$00>「みなさん すばらしいけっこんしきを<line>
+//あげてくださって<line>
+//なんとおれいをいっていいか」<$E6><$F0><$00><clear>
+//<$E6><$8C><$00>「おれいなんて そんな,,,<line>
+//できることならウルトラのはは<line>
+//おとこのこを うんでください<line>
+//なまえは タロウ なんてどうです?」<sect><clear>
+//<$E7><$F2><$04><$E6><$14><$00>「タロウ,,, いいなまえだわ<line>
+//あたしかならず おとこのこをうみます」<$E6><$F0><$00><clear>
+//<$E6><$8C><$00>「きたいしています ではぼくたちは<line>
+//これで」<sect><clear>
+//<$E7><$F5><$04><$E6><$14><$00>「あっ まってください もしよかったらこれを<line>
+//うけとってください わがウルトラけに<line>
+//つたわるものですが なにかのおやくに<line>
+//たてれば,,,」<sect><clear>
+//<$E7><$F8><$04><$E6><$14><$00>「あっ これは!」<line>
+//<$E6><$78><$00>「なるほど てきは はじめからこれがねらい<line>
+//だったんだ!」<sect><clear>
+//<$E7><$FB><$04><$E6><$14><$00>「ありがとうございます ぼくたちもこれを<line>
+//さがしていたのです SDネイションのへいわ<line>
+//のために つかわせていただきます」<sect><clear>
+//<$E7><$DD><$04><$E6><$50><$00><$E6><$14><$00><$E7><$2C><$07>おもわぬところで 2こめのカプセルをてに<line>
+//いれたヒーローたちは いまふたたび<line>
+//みらいへとかえるのであった<sect><end>
+<$E7><$E6><$04><$E6><$14><$00>
+"Father of Ultra!<line>
+Are you all right?<$E6><$B4><$00><clear>
+<$E6><$8C><$00>
+"Yes, thanks to you.<line>
+But... What about Mother?"<sect><clear>
+<$E7><$E9><$04><$E6><$14><$00>
+"Don't worry, she's fine.<line>
+Unfortunately, the chapel<line>
+is ruined...<sect><line>
+I know! How about we<line>
+perform the wedding<line>
+ceremony?"<$E6><$F0><$00><clear>
+<$E6><$8C><$00>"You would??"<sect><clear>
+<$E7><$EC><$04><$E6><$14><$00>
+Thus our four heroes<line>
+performed the ceremony.<$E6><$3C><$00><clear>
+<$E6><$84><$03>
+"Uhmm... Will you take...<line>
+Blah blah blah...<line>
+I now pronounce you husband<line>
+and wife."<sect><clear>
+<$E7><$EF><$04><$E6><$14><$00>
+"Thank you, my friends.<line>
+This was the best wedding<line>
+I could have ever asked<line>
+for.<sect><line>
+Is there anything I can do<line>
+to repay you?"<$E6><$F0><$00><clear>
+<$E6><$8C><$00>
+"You don't owe us anything.<line>
+We only ask that you have a<line>
+son with Mother of Ultra.<line>
+And name him Taro!<sect><clear>
+<$E7><$F2><$04><$E6><$14><$00>
+"Taro... I like it.<line>
+I'm sure we'll have a<line>
+healthy boy!"<$E6><$F0><$00><clear>
+<$E6><$8C><$00>
+"We know you will.<line>
+We have to go now.<line>
+Take care!"<sect><clear>
+<$E7><$F5><$04><$E6><$14><$00>
+"Oh, hold on a moment!<line>
+I want you to have this.<sect><line>
+It has been passed down<line>
+through the Ultra family<line>
+for generations.<line>
+I hope you find it useful."<sect><clear>
+<$E7><$F8><$04><$E6><$14><$00>
+"Wow! Check it out!"<line>
+<$E6><$78><$00>
+"So THIS is what they were<line>
+after!"<sect><clear>
+<$E7><$FB><$04><$E6><$14><$00>
+"Thank you! We've been<line>
+collecting these Capsules<line>
+to bring peace back to the<line>
+SD Nation."<sect><clear>
+<$E7><$DD><$04><$E6><$50><$00><$E6><$14><$00><$E7><$2C><$07>
+In a welcome twist, our<line>
+heroes found the second<line>
+Capsule.<sect><line>
+After bidding a fond fare-<line>
+well, they activated the<line>
+time machine once again,<line>
+and returned to the future.<sect><end>
+
+//[$02DDCA]
+#EMBWRITE($0009)
+//<$E7><$FE><$04><$E6><$14><$00>「これで タロウにあえるな」<$E6><$3C><$00><clear>
+//<$E6><$B4><$00>「どっどうした!!」<line>
+//「わからん ざひょうがくるいはじめた!!」<sect><clear>
+//<$E7><$01><$05><$E6><$18><$01>「どうやらついたようだ,,,」<line>
+//<$E6><$64><$00><clear>
+//<$E7><$04><$05><$E6><$14><$00>「うわっ!!!!」<sect><clear>
+//<$E7><$07><$05><$E6><$14><$00>「おい こいつは ざひょうのくるいなんか<line>
+//じゃないぞ てきがここへ ひきよせたんだ!<line>
+//ようし いくぞ!!」<sect><end>
+<$E7><$FE><$04><$E6><$14><$00>
+"Hopefully Taro is once<line>
+again among us."<$E6><$3C><$00><clear>
+<$E6><$B4><$00>
+"W-What's going on?!"<line>
+"I'm not sure! Some kind of<line>
+turbulence has thrown us<line>
+off course!"<sect><clear>
+<$E7><$01><$05><$E6><$18><$01>
+"Well, at least we arrived<line>
+some--"<line>
+<$E6><$64><$00><clear>
+<$E7><$04><$05><$E6><$14><$00>
+"WHOA!"<sect><clear>
+<$E7><$07><$05><$E6><$14><$00>
+"That was no turbulence!<line>
+It was the enemy, pulling<line>
+us here! Let's not keep<line>
+them waiting, guys!"<sect><end>
+
+//[$02DE6F]
+#EMBWRITE($000A)
+//<$E7><$0A><$05><$E6><$14><$00>「なんだっ!うわあっっっ!!!」<$E6><$B4><$00><end>
+<$E7><$0A><$05><$E6><$14><$00>
+"What the--<line>
+Waaaarrgh!!"<$E6><$B4><$00><end>
+
+//[$02DE89]
+#EMBWRITE($000B)
+//<$E7><$0D><$05><$E6><$DC><$00>「あら きがついた?」<sect><clear>
+//<$E7><$10><$05><$E6><$8C><$00>「ここは?<line>
+//きみがかいほうしてくれたのか?<line>
+//<$E6><$78><$00>あっ」<sect><clear>
+//<$E7><$13><$05><$E6><$14><$00>「あら そのカプセル みたことがあるわ」<line>
+//「えっ きみ これをしっているのか!?」<sect><clear>
+//「ええ このさきにあるピラミッドのなかに おなじものが まつられているわよ だけどそこは<line>
+//デブデダビデと そのてしたが ほういして<line>
+//いまはもうだれも ちかづけないわ」<sect><clear>
+//<$E7><$16><$05><$E6><$14><$00>「ちっ またさきをこされた! いくぞ!」<line>
+//「まって そのからだじゃ,,,」<sect><clear>
+//「だいじょうぶ どうもありがとう」<line>
+//「さっ さきをいそごう!!」<sect><end>
+<$E7><$0D><$05><$E6><$DC><$00>
+"Oh, you're waking up!"<sect><clear>
+<$E7><$10><$05><$E6><$8C><$00>
+"Where are we?<line>
+Did you save us?<line>
+<$E6><$78><$00>Hey!"<sect><clear>
+<$E7><$13><$05><$E6><$14><$00>
+"Is that a Capsule? It<line>
+looks just like the other<line>
+one."<sect><line>
+"What? You've seen another<line>
+Capsule?"<sect><clear>
+"Yes. You see that pyramid?<line>
+There's one like it<line>
+enshrined within.<sect><line>
+But Debudedabide sent his<line>
+minions there, and they<line>
+aren't letting anyone<line>
+near."<sect><clear>
+<$E7><$16><$05><$E6><$14><$00>
+"Hmph. Late again...<line>
+Let's go!"<sect><line>
+"Wait! You need to rest!"<sect><clear>
+"Don't worry, we're fine.<line>
+Thank you."<line>
+"Come on, let's hurry!"<sect><end>
+
+//[$02DF95]
+#EMBWRITE($000C)
+//<$E7><$19><$05><$E6><$14><$00>「やった!3こめだ!<line>
+//だけどあとひとつは いったいどこに,,,」<$E6><$8C><$00><clear>
+//「よくぞ3こも あつめられたもんやな<line>
+//ほめたるわ しかしざんねんやが さいごのひとつはこのわしがもっとるんや<sect><clear>
+//ほしいんか?なら わしのいるめいおうせいまで<line>
+//とりにきてみい ワッハッハッハッハッ,,,」<sect><clear>
+//<$E7><$1C><$05><$E6><$14><$00>「ダークブレインめ めいおうせいなんて,,,<line>
+//どうやっていけばいいんだ,,,!」<$E6><$B4><$00><clear>
+//<$E6><$8C><$00>「おい あそこに てきのうちゅうせん<line>
+//があるぞ あれをつかおう!!」<sect><clear>
+//<$E7><$1F><$05><$E6><$14><$00>「みんないいか!? 3,2,1,GO!!」<$E6><$2C><$01><sect><end>
+<$E7><$19><$05><$E6><$14><$00>
+"Alright! That's three!<line>
+But where could the last<line>
+one be...?"<$E6><$8C><$00><clear>
+"You got all the Capsules,<line>
+huh? Nice going! But I've<line>
+got the last one right<line>
+here!<sect><clear>
+Neener neener! You want it?<line>
+You want it, do you?<sect><line>
+Then come get me! I'll be<line>
+waiting for you on Pluto!<line>
+WAHAHAHAHAHAH..."<sect><clear>
+<$E7><$1C><$05><$E6><$14><$00>
+"Did he say Pluto?! How are<line>
+we supposed to reach Dark<line>
+Brain now...?"<$E6><$B4><$00><clear>
+<$E6><$8C><$00>
+"Look! One of their<line>
+spaceships! Let's use it!"<sect><clear>
+<$E7><$1F><$05><$E6><$14><$00>
+"Are you ready?<line>
+3, 2, 1, GO!!"<$E6><$2C><$01><sect><end>
+
+//[$02E09F]
+#EMBWRITE($000D)
+//<$E7><$22><$05><$E6><$14><$00>こおりとやみのせかい めいおうせい<line>
+//いま SDせんしは さいごのけっせんへ<line>
+//いどもうとしていた<sect><end>
+<$E7><$22><$05><$E6><$14><$00>
+Pluto... A world of ice and<line>
+darkness. The SD Heroes<line>
+bravely marched towards the<line>
+final challenge.<sect><end>
+
+//[$02E0D6]
+#EMBWRITE($000E)
+//「ん?なんや あしばが ないやんけ ちょいまちいま もとにもどしたる ウリャ!!」<$E7><$25><$05><$E6><$14><$00>「やったあ!とうとうそろったぞ!」<line>
+//「これで このせかいが すくわれる!」<line>
+//「よし はやくみんなのところへ もどろう」<line>
+//「おうっ!!!」<sect><clear>
+//<$E7><$28><$05><$E6><$14><$00>かくしてそうぜつなたたかいは いま まくをとじたSDネイションに ふたたびへいわがもどるであろう<sect><clear>
+//「アーアーっ こちらロア SDネイション<line>
+//おうとうねがいます」<line>
+//「こちらSDネイション ロアか?<line>
+//みんなぶじなのか!?」<sect><clear>
+//「はい みんなげんきです カプセルもすべて<line>
+//そろいました<line>
+//いま そちらにむかっております どうぞ」<sect><clear>
+//「そうか!やったな!みんなありがとう!<line>
+//きみたちのきかんを こころよりかんげい<line>
+//,,,, ピーピーピー ,,,,<sect><line>
+//ガガガ ,,, だな!<line>
+//SDネイシ,,,,ガガガピーッ,,,<line>
+//プツン,,,」<sect><clear>
+//「もしもし,,, SDネイション!?<line>
+//もしもし!!」<line>
+//「どうした!?」<line>
+//「わからん いきなり つうしんふのうになった!」<sect><clear>
+//<$E7><$2B><$05><$E6><$14><$00>「なっなんだ!!RX!」<$E6><$78><$00><clear>
+//「だめだ ふねのそうじゅうができん!」<line>
+//「なにがおこったんだ!?」<line>
+//「おい なにかに ひっぱられてるぞ!!」<line>
+//「ワーッ!!!」<$E6><$86><$01><end>
+"Hm? Why's the platform<line>
+so small? That won't do!<line>
+Hold on, I'll make it<line>
+bigger. Hyah!"<clear><$E7><$25><$05><$E6><$14><$00>
+"We did it!<line>
+We got 'em all!"<line>
+"Now we can save the<line>
+world!"<sect><line>
+"Let's hurry back!"<line>
+"YEAH!"<sect><clear>
+<$E7><$28><$05><$E6><$14><$00>
+Thus, their heroic journey<line>
+came to an end. Our heroes<line>
+were ready to return peace<line>
+to the SD Nation.<sect><clear>
+"This is Roar. Come in,<line>
+SD Nation. Over."<sect><line>
+"This is SD Nation. Is that<line>
+really you, Roar? Is<line>
+everyone okay? Over!"<sect><clear>
+"Yes, we're all safe, and<line>
+we've got all the Capsules<line>
+too. We're on our way back.<line>
+Over."<sect><clear>
+"This is great news!<line>
+You did it, Heroes!<sect><line>
+We'll prepare a glorious<line>
+welcome for whe--KSSHHRR--<line>
+--KSSSSHHHRR--<sect><line>
+--KSSHHHRR--ives!<line>
+Hurry back, we--KSSHHRRR--<line>
+--KSSHHHR-- --BZZZT--<sect><clear>
+"SD Nation? We're getting<line>
+some interference! Come in,<line>
+SD Nation!"<sect><line>
+"What's going on?!"<line>
+"I don't know! The signal<line>
+just died, and I can't get<line>
+it back!"<sect><clear>
+<$E7><$2B><$05><$E6><$14><$00>
+"Oh no! RX!"<$E6><$78><$00><clear>
+"Sorry! I lost control of<line>
+the ship!"<sect><line>
+"No way!"<line>
+"Something's pulling us!"<line>
+"WAAAAH!!"<$E6><$86><$01><end>
+
+//[$02E2ED]
+#EMBWRITE($000F)
+//<$E7><$2E><$05><$E6><$14><$00>「ここは?」<sect><clear>
+//「ハッハッハッ きがついたかSDども!」<line>
+//「うっ なんだおまえは!」<sect><clear>
+//<$E7><$31><$05><$E6><$B4><$00>「わしは ザンエル<line>
+//まっ このよのしはいしゃ とでもいっておこう」<sect><clear>
+//<$E7><$34><$05><$E6><$14><$00>「しはいしゃだと,,,,!?わかったぞ<line>
+//かんきょうかんりそうちを くるわしたのは<line>
+//おまえだな!!」<sect><clear>
+//<$E7><$37><$05><$E6><$14><$00>「そのとおり おまえたちのSDネイションが<line>
+//どうしてもほしくてな だがわたしは<line>
+//ぼうりょくがきらいでな<sect><line>
+//そこでだ わたしは てをよごさずして<line>
+//SDネイションを てにいれることを おもいついたつまり なかまわれだ<sect><line>
+//さいわい そこにはダークブレインという<line>
+//ワルがいてな<line>
+//こいつがうまいぐあいに あばれだして<line>
+//くれたわけだ<sect><line>
+//だがな けいかくは うまくいっていたが<line>
+//カプセルのことはしらなかった そんな<line>
+//いいものがあったとはな そこでそうだんだ<sect><line>
+//そのカプセルをわたしに<line>
+//ゆずってもらえないだろうか?」<sect><clear>
+//<$E7><$3A><$05><$E6><$14><$00>「ふざけるな だれがおまえなんかに!!」<sect><clear>
+//<$E7><$3D><$05><$E6><$14><$00>「フフフッ そうはやまるな なにもただで<line>
+//くれとはいわん わしのもっている かずかずの<line>
+//ほしのなかのひとつ どれでもすきなものをゆずろうそれに おまえたちのかぞくも たすけてやる」<sect><clear>
+//<$E7><$40><$05><$E6><$14><$00>「うーん ほしか で どんなのがあるんだ?」<$E6><$B4><$00><clear>
+//<$E6><$8C><$00>「バカ!なにいってるんだ こんなやつのことを<line>
+//しんようするのか? カプセルをわたしたとたん<line>
+//おれたちを しまつするつもりだぞ!」<sect><clear>
+//<$E7><$43><$05><$E6><$14><$00>「あっ そうか! やい<line>
+//そんなとりひき ぜったいにしないぞ!!」<$E6><$B4><$00><clear>
+//<$E6><$8C><$00>「ふん ひとのしんせつをむだにしおって よし<line>
+//わかった ぼうりょくはきらいだが こうなったら<line>
+//ちからずくでも いただくとしよう!」<sect><end>
+<$E7><$2E><$05><$E6><$14><$00>
+"Where are we?"<sect><clear>
+"Hahahah! Good morning,<line>
+SD folks!"<line>
+"Huh? Who are you?!"<sect><clear>
+<$E7><$31><$05><$E6><$B4><$00>
+"I am XN-L. Think of me as<line>
+the ruler of the universe."<sect><clear>
+<$E7><$34><$05><$E6><$14><$00>
+"What...? Oh, I get it! YOU<line>
+are the one who sabotaged<line>
+the Climate Control<line>
+System!"<sect><clear>
+<$E7><$37><$05><$E6><$14><$00>
+"Indeed. You see, I really,<line>
+REALLY wanted the SD<line>
+Nation.<sect><line>
+But I'm a peaceful being.<line>
+I couldn't resort to<line>
+violence.<sect><line>
+The solution was joining<line>
+forces with someone who<line>
+shared that goal.<sect><line>
+That's when Dark Brain came<line>
+in. He was the perfect pawn<line>
+in my master plan.<sect><line>
+However, I had no idea<line>
+about these Capsules of<line>
+yours! They sound too good<line>
+to be true.<sect><line>
+Would you mind handing<line>
+them over?"<sect><clear>
+<$E7><$3A><$05><$E6><$14><$00>
+"Do you really think we're<line>
+THAT dumb?"<sect><clear>
+<$E7><$3D><$05><$E6><$14><$00>
+"Now now, don't refuse just<line>
+yet. I never said you had<line>
+to give them to me for<line>
+free.<sect><line>
+As ruler of the universe,<line>
+I own countless planets.<line>
+I'll give you one of your<line>
+choosing.<sect><line>
+Think about it. You would<line>
+save everyone, just as<line>
+you'd planned."<sect><clear>
+<$E7><$40><$05><$E6><$14><$00>
+"Hmmm... That sounds like<line>
+a good deal..."<$E6><$B4><$00><clear>
+<$E6><$8C><$00>
+"Don't fall for his lies!<line>
+He's obviously going to<line>
+kill us once he has the<line>
+Capsules!"<sect><clear>
+<$E7><$43><$05><$E6><$14><$00>
+"Whoa really? That's not<line>
+a good deal at all!"<$E6><$B4><$00><clear>
+<$E6><$8C><$00>
+"And so you choose to<line>
+reject my kind offer.<line>
+So be it.<sect><line>
+Though I loathe violence,<line>
+I must have those Capsules.<line>
+I'll take them from your<line>
+lifeless bodies!"<sect><end>
+
+//[$02E5D6]
+#EMBWRITE($0010)
+//<$E7><$49><$05><$E6><$14><$00>「ダークブレインッ!!!」<sect><clear>
+//<$E7><$4C><$05><$E6><$40><$01>「ググッ くそっよくも!<line>
+//わたしを ほんとうに おこらせたな<line>
+//ゆるさんっ!」 <sect><clear>
+//<$E7><$4F><$05><$E6><$A4><$01><$E7><$52><$05><$E6><$A4><$01><$E7><$55><$05><$E6><$A4><$01><end>
+<$E7><$49><$05><$E6><$14><$00>
+"DARK BRAIN!!"<sect><clear>
+<$E7><$4C><$05><$E6><$40><$01>
+"Urgh... Argh...<line>
+C-Curse him! I've never<line>
+been so humiliated!<line>
+YOU'LL PAY FOR THIS!!"<sect><clear>
+<$E7><$4F><$05><$E6><$A4><$01><$E7><$52><$05><$E6><$A4><$01><$E7><$55><$05><$E6><$A4><$01><end>
+
+//[$02E62D]
+#EMBWRITE($0011)
+//<$E7><$58><$05><$E6><$14><$00>「ハーハーッやっと ハーハー<line>
+//おわったな ゼーッゼーッ」<line>
+//「だいじょうぶかロア しかし このひろいうちゅうとんでもないやつがいたもんだ」<sect><clear>
+//<$E7><$5B><$05><$E6><$14><$00>「おなじSDどうしなのに<line>
+//まんまと やつにはめられて<line>
+//たたかいあうなんて オレたちもバカだったよな」<sect><line>
+//「こんなおろかなことに いまきづくなんて,,,<line>
+//おもうんだけど もうこんなカプセル<line>
+//いらないんじゃないか?」<sect><clear>
+//<$E7><$5E><$05><$E6><$14><$00>「オレもいま そうおもっていたところだ<line>
+//オレたち かんきょうかんりそうちに たよりすぎていたんだ もしかしたらあんなものなくても<line>
+//みんな なかよくやっていけるんじゃないかな?」<sect><clear>
+//<$E7><$61><$05><$E6><$14><$00>「うん そんなきがする,,,いや<line>
+//そういう せかいをつくるんだ<line>
+//かならずできるはずだ!」<sect><clear>
+//<$E7><$64><$05><$E6><$14><$00>「それにしてもダークブレインのヤツ,,,」<line>
+//「さいごに おいしいとこ もっていきやがって<line>
+//ウウッ,,,」<sect><line>
+//「ダークブレイン おまえのことはわすれないよ<line>
+//さいこうのライバルだったぜ!」<line>
+//「あいつのことだ また<line>
+//あのよで わるさしてなきゃいいがな」<sect><clear>
+//<$E7><$67><$05><$E6><$14><$00>「おい ここはもうあぶない そろそろいこう<line>
+//みんなしんぱいしているはずだ」<line>
+//「よし こんどこそ ほんとうにかえるゾッ!!!」<sect><end>
+<$E7><$58><$05><$E6><$14><$00>
+"Huff... Wheeze... We<line>
+finally... Pant... did<line>
+it... Wheeze..."<sect><line>
+"Deep breaths, Roar.<line>
+There sure are some scary<line>
+folks in the universe,<line>
+huh?"<sect><clear>
+<$E7><$5B><$05><$E6><$14><$00>
+"He tricked both sides into<line>
+fighting so he could take<line>
+everything in the end...<sect><line>
+If only we had realized it<line>
+sooner."<sect><line>
+"What's done is done.<line>
+Anyway, now that this is<line>
+over... Do we really need<line>
+these Capsules?"<sect><clear>
+<$E7><$5E><$05><$E6><$14><$00>
+"Now that you mention it,<line>
+I'm starting to think we've<line>
+been relying too much on<line>
+the Climate Control System.<sect><line>
+Maybe without it, we could<line>
+all get along. What do you<line>
+think?"<sect><clear>
+<$E7><$61><$05><$E6><$14><$00>
+"You may be right...<line>
+That's the kind of world<line>
+I'd like to see!"<sect><clear>
+<$E7><$64><$05><$E6><$14><$00>
+"Poor Dark Brain..."<line>
+"H-He sure stole the<line>
+s-spotlight there...<line>
+Sniff..."<sect><line>
+"I'll never forget you,<line>
+Dark Brain. You were our<line>
+greatest rival!"<sect><line>
+"Knowing him, he's already<line>
+planning some nasty scheme<line>
+in the next world..."<sect><clear>
+<$E7><$67><$05><$E6><$14><$00>
+"We can't stay here. Let's<line>
+go home! Everyone must be<line>
+worried sick!"<sect><line>
+"Yeah! And this time,<line>
+for real!!"<sect><end>
+
+//[$02E848]
+#EMBWRITE($0012)
+//<$E7><$FE><$04><$E6><$14><$00>「これで タロウにあえるな」<$E6><$3C><$00><clear>
+//<$E6><$B4><$00>「どっどうした!!」<line>
+//「わからん ざひょうがくるいはじめた!!」<sect><clear>
+//<$E7><$6A><$05><$E6><$14><$00>「どこなんだここは!?」<line>
+//「どうやら げんだいには<line>
+//もどってこれたようだが,,,」<line>
+//「おいっ なにかいるぞ きをつけろっ!」<sect><end>
+<$E7><$FE><$04><$E6><$14><$00>
+"Hopefully Taro is once<line>
+again among us."<$E6><$3C><$00><clear>
+<$E6><$B4><$00>
+"W-What's going on?!"<line>
+"I'm not sure! Some kind of<line>
+turbulence has thrown us<line>
+off course!"<sect><clear>
+<$E7><$6A><$05><$E6><$14><$00>
+"Where are we?"<line>
+"I think we're back to<line>
+our time, but..."<line>
+"Look out!"<sect><end>
+
+//[$02E8CB]
+#EMBWRITE($0013)
+//<$E7><$6D><$05><$E6><$14><$00>うちゅうせんは たいきけんに とつにゅう<line>
+//かいていに ふじちゃくした<sect><clear>
+//「もう このふねは だめだ でよう!」<line>
+//「まて!なにがいるかわからないぞ きをつけろ!」<sect><end>
+<$E7><$6D><$05><$E6><$14><$00>
+The ship entered the<line>
+atmosphere, and plunged<line>
+into the ocean.<sect><clear>
+"No point in staying here.<line>
+Let's go!"<line>
+"Careful, guys! They're<line>
+probably expecting us!"<sect><end>
+
+//[$02E923]
+#EMBWRITE($0014)
+//<$E7><$70><$05><$E6><$14><$00>うちゅうせんは たいきけんにとつにゅう<line>
+//ちきゅうに ついた<sect><clear>
+//<$E7><$73><$05><$E6><$14><$00>そこは くさきのおいしげる<line>
+//うっそうとした ジャングルだった,,,<sect><clear>
+//「おい とりあえず そとへでよう」<line>
+//「みんなきをつけろ なにがいるかわからんぞ!」<sect><end>
+<$E7><$70><$05><$E6><$14><$00>
+The ship entered the<line>
+atmosphere and landed<line>
+on Earth.<sect><clear>
+<$E7><$73><$05><$E6><$14><$00>
+Our heroes found themselves<line>
+surrounded by vegetation.<line>
+They were in the thickest<line>
+jungle they'd ever seen.<sect><clear>
+"Well, let's get going."<line>
+"Careful guys! Who knows<line>
+what may be lurking out<line>
+there!"<sect><end>
+
+//[$02E99C]
+#EMBWRITE($0015)
+//<$E7><$76><$05><$E6><$14><$00>「こんなところで ぐずぐずしていられない<line>
+//とにかくここをでよう!」<sect><clear>
+//<$E7><$79><$05><$E6><$14><$00>なんとかてきをたおし ジャングルをぬけだした<line>
+//SDヒーロー<sect><line>
+//しかしぬけだしたはいいが いけどもいけどもそこはしゃくねつの さばくがつづいていた,,,<sect><end>
+<$E7><$76><$05><$E6><$14><$00>
+"We can't stay here<line>
+forever. Let's go!"<sect><clear>
+<$E7><$79><$05><$E6><$14><$00>
+The SD Heroes managed to<line>
+defeat their foes, and left<line>
+the jungle behind them.<sect><line>
+However, they simply traded<line>
+one hostile landscape for<line>
+another,<sect><line>
+as they found themselves<line>
+in a scorching desert...<sect><end>
+
+//[$02EA18]
+#EMBWRITE($0016)
+//<$E7><$7C><$05><$E6><$14><$00>「よし これで2こめだ! ん?<line>
+//なんだあれは!?」<sect><clear>
+//<$E7><$7F><$05><$E6><$14><$00>「みんな ぼくのすがたがみえるか?」<line>
+//「えっタロウなのか?」<line>
+//「うん いまホログラムえいぞうで ぼくのすがたをおくっているんだ」<sect><line>
+//「ホログラム?」<line>
+//「ぼくはいま げつめんきちにいるんだが てきの<line>
+//こうげきをうけ くせんしている たすけてくれ!<sect><line>
+//もう まともにたたかえるのは<line>
+//ぼくとV3しかいないんだ このままでは<line>
+//カプセルが,,,」<sect><clear>
+//<$E7><$82><$05><$E6><$14><$00>「なんだ?いきなりきえたぞ」<line>
+//「カプセルがどうとかいってたな<line>
+//なんだかわからんが とにかく<line>
+//つきへいったほうがいい!」<$E6><$3C><$00><clear>
+//<$E6><$8C><$00>「あそこにてきのうちゅうせんがあるぞ<line>
+//まだつかえそうだ<line>
+//あれにのっていこう!」<sect><clear>
+//<$E7><$85><$05><$E6><$14><$00>「みんないいか!? 3,2,1,GO!!」<$E6><$7C><$01><sect><end>
+<$E7><$7C><$05><$E6><$14><$00>
+"That's two of them!<line>
+Hm? What's that?!"<sect><clear>
+<$E7><$7F><$05><$E6><$14><$00>
+//This was originally about Taro projecting a hologram so he could communicate.
+//I've shortened it, because he's in trouble and would want to be succinct.
+"Hey, is anyone there?"<line>
+"Taro, is that you?"<sect><line>
+"Yes, but there's no time!"<sect><line>
+"Where are you?"<line>
+"Inside the lunar base.<line>
+There's too many of them!<line>
+I need your help!<sect><line>
+Besides me, only V3 can<line>
+still fight. We won't be<line>
+able to protect the<line>
+Capsule for--"<sect><clear>
+<$E7><$82><$05><$E6><$14><$00>
+"We've been cut off!"<line>
+"He mentioned a Capsule;<line>
+that's all we need to know.<line>
+To the moon!"<$E6><$5C><$00><clear>
+<$E6><$8C><$00>
+"We can use that spaceship.<line>
+Get in!"<sect><clear>
+<$E7><$85><$05><$E6><$14><$00>
+"Are you ready?<line>
+3, 2, 1, GO!!"<$E6><$7C><$01><sect><end>
+
+//[$02EB7A]
+#EMBWRITE($0017)
+//<$E7><$CB><$04><$E6><$14><$00>つきへおりたったSDヒーロー そこはかつて<line>
+//ウルトラマンタロウがとうちする げつめん<line>
+//ステーションとして さかえたとしだったが<$E6><$90><$01><clear>
+//いつのまにか みるもむざんな はいきょと<line>
+//かしていた<$E6><$50><$00><sect><end>
+<$E7><$CB><$04><$E6><$14><$00>
+The SD Heroes arrived at<line>
+the moon, at the site of<line>
+the Lunar Station.<sect><line>
+Once, this place flourished<line>
+under Ultraman Taro's<line>
+management.<$E6><$90><$01><clear>
+But this place, too,<line>
+descended into chaos...<$E6><$50><$00><sect><end>
+
+//[$02EBE2]
+#EMBWRITE($0018)
+//<$E7><$8B><$05><$E6><$14><$00>「あっV3!だいじょうぶか!?」<line>
+//「すまん タロウが,,,」<line>
+//「タロウがどうしたって?」<sect><clear>
+//<$E7><$8E><$05><$E6><$14><$00>「てきがいきなり でんせつのカプセルを<line>
+//よこせとおそいかかり あっというまに,,,<line>
+//はっしんきを つけていたんで かせいまでいった<line>
+//ところまでは わかったんだが」<sect><clear>
+//<$E7><$91><$05><$E6><$14><$00>「かせいだって!?そんなところまで<line>
+//どうやって いけばいいんだ?」<$E6><$04><$01><clear>
+//「おい ほうほうはあるぞ」<sect><clear>
+//<$E7><$94><$05><$E6><$14><$00>「あれをつかうんだ!」<line>
+//「まっまさかマスドライバーで!?」<line>
+//「だいじゅうぶ なんとかなるさ!」<sect><clear>
+//<$E7><$97><$05><$E6><$14><$00>「そんなむちゃな!おいまて!!」<sect><clear>
+//<$E7><$9A><$05><$E6><$14><$00>「いくぞ! 3<$E6><$3C><$00>   2<$E6><$3C><$00>   1」<$E6><$78><$00><clear>
+//<$E6><$BC><$02><$E7><$9D><$05><$E6><$DC><$00><end>
+<$E7><$8B><$05><$E6><$14><$00>
+"V3! Are you okay?!"<line>
+"Forgive me...<line>
+They got Taro..."<line>
+"What happened?<sect><clear>
+<$E7><$8E><$05><$E6><$14><$00>
+"They showed up suddenly,<line>
+and demanded the Capsule...<sect><line>
+Thanks to a hidden<line>
+transmitter, we know<line>
+they're on Mars, but..."<sect><clear>
+<$E7><$91><$05><$E6><$14><$00>
+"Mars? How are we supposed<line>
+to get there?!"<$E6><$04><$01><clear>
+"I have an idea!"<sect><clear>
+<$E7><$94><$05><$E6><$14><$00>
+"We can use THAT!"<line>
+"The Mass Driver?!"<line>
+"Yeah! It'll be fine,<line>
+trust me!"<sect><clear>
+<$E7><$97><$05><$E6><$14><$00>"That's crazy! Hey, stop!!"<sect><clear>
+<$E7><$9A><$05><$E6><$14><$00>"Ready? 3, <$E6><$3C><$00>2, <$E6><$3C><$00>1..."<$E6><$78><$00><clear>
+<$E6><$BC><$02><$E7><$9D><$05><$E6><$DC><$00><end>
+
+//[$02ED22]
+#EMBWRITE($0019)
+//<$E7><$A0><$05><$E6><$14><$00>かんきょうせいびちゅうの かせいは<line>
+//かざんかつどうの<line>
+//まっさいちゅうであった タロウは<line>
+//いったいどこに,,,<sect><end>
+<$E7><$A0><$05><$E6><$14><$00>
+Mars was being terraformed,<line>
+and there were many active<line>
+volcanoes. Where could they<line>
+have taken Taro...?<sect><end>
+
+//[$02ED60]
+#EMBWRITE($001A)
+//<$E7><$A3><$05><$E6><$14><$00>「タロウッ!だいじょうぶか!?」<line>
+//「ああ だいじょうぶだ ありがとう<line>
+//それにほらっ」<sect><clear>
+//<$E7><$A6><$05><$E6><$14><$00>「あっカプセル!」<line>
+//「タロウ やっぱりきみがもっていたのか!」<sect><clear>
+//<$E7><$A9><$05><$E6><$14><$00>「やった!3こめだ!<line>
+//だけどあとひとつは いったいどこに,,,」<$E6><$8C><$00><clear>
+//「よくぞ3こも あつめられたもんやな<line>
+//ほめたるわ しかしざんねんやが さいごのひとつはこのわしがもっとるんや<sect><clear>
+//ほしいんか?なら わしのいるめいおうせいまで<line>
+//とりにきてみい ワッハッハッハッハッ,,,」<sect><clear>
+//<$E7><$AC><$05><$E6><$14><$00>「めいおうせいだって!?」<line>
+//「ぼくもつれてってくれ!」<line>
+//「だめだそんなからだで! オレたちにまかせろ<sect><line>
+//かならず すべてのカプセルを てにいれてみせる!」<line>
+//「,,,わかった みんな たのむぞ!」<sect><end>
+<$E7><$A3><$05><$E6><$14><$00>
+"Taro! Are you okay?!"<line>
+"Yes, thanks to you. And<line>
+more importantly... Here."<sect><clear>
+<$E7><$A6><$05><$E6><$14><$00>
+"The Capsule!"<line>
+"You were guarding it this<line>
+whole time!"<sect><clear>
+<$E7><$A9><$05><$E6><$14><$00>
+"That's the third one!<line>
+But where could the last<line>
+one be...?"<$E6><$8C><$00><clear>
+"You got all the Capsules,<line>
+huh? Nice going! But I've<line>
+got the last one right<line>
+here!<sect><clear>
+Neener neener! You want it?<line>
+You want it, do you?<sect><line>
+Then come get me! I'll be<line>
+waiting for you on Pluto!<line>
+WAHAHAHAHAHAH..."<sect><clear>
+<$E7><$AC><$05><$E6><$14><$00>
+"Did he say Pluto?!"<line>
+"Take me with you!"<line>
+No, you're injured!<line>
+Leave it to us!<sect><line>
+Don't worry, we'll get<line>
+the last Capsule!"<line>
+"...All right. I trust you.<line>
+Good luck, friends!"<sect><end>
+
+//[$02EEB3]
+#EMBWRITE($001B)
+//「SDヒーローよ おれは ダークブレイン<line>
+//しんえいたいのひとり ベルガダラスだ」<sect><clear>
+//「ダークブレインだと?<line>
+//あいつがいきているというのか!?」<sect><clear>
+//「ハハハッ あのおかたは ふじみなのだ<line>
+//おまえらの たちうちできるあいてではない<line>
+//おれさまひとりでじゅうぶんだ いくぞ!」<sect><end>
+"SD Heroes! I am Berga<line>
+Dalas, one of Dark Brain's<line>
+elite soldiers!"<sect><clear>
+"Dark Brain?<line>
+He's still alive?!"<sect><clear>
+"Hahahah! He's immortal!<sect><line>
+You're no match for him.<line>
+But I'll take care of<line>
+you myself!"<sect><end>
+
+//[$02EF3B]
+#EMBWRITE($001C)
+//「わしはメフィラスせいじん おまえらすこし<line>
+//しつこいぞ こんなところまできおって<line>
+//このカプセルは わたさん!!」<sect><end>
+"I'm Alien Mefilas! You<line>
+sure are persistent!<sect><line>
+I'm not giving you the<line>
+Capsule!!"<sect><end>
+
+//[$02EF75]
+#EMBWRITE($001D)
+//「おれはシャドームーン まさかここまで<line>
+//はいりこむとは<sect><line>
+// つききちは ダークブレインさまから<line>
+//まかされているのだ このことがしれたら,,,<line>
+//ゆるさん しね!!」<sect><end>
+"My name is Shadow Moon.<line>
+How did you manage to get<line>
+in here?<sect><line>
+Master Dark Brain<line>
+entrusted this base to<line>
+me.<sect><line>
+If he learns that<line>
+screwed up...!<sect><line>
+I can't let that happen.<line>
+DIE!!"<sect><end>
+
+//[$02EFC8]
+#EMBWRITE($001E)
+//「おい ウルトラのちちをかえせ!」<sect><clear>
+//「ほざくな!<line>
+//このスカルナイトさまにむかって なにをいうか<line>
+//しね+i!」<sect><end>
+"Hey you! Give us back<line>
+Father of Ultra!"<sect><clear>
+"Fools!<sect><line>
+You face Skull Knight!<line>
+The price for your<line>
+impudence is DEATH!"<sect><end>
+
+//[$02F000]
+#EMBWRITE($001F)
+//「フフフッ このゴーデスさまが きさまらを<line>
+//ここへひきよせたのだ おまえたちは<line>
+//ここで お,わ,り だ<sect><clear>
+//うみのもくずときえろ!!」<sect><end>
+"Mwahaha! I am Gudis!<line>
+You fell right into my<line>
+trap!<sect><clear>
+You'll forever sleep in<line>
+a watery grave!!"<sect><end>
+
+//[$02F044]
+#EMBWRITE($0020)
+//「ハハハッ わざわざ じぶんたちからカプセル<line>
+//をもってくるとは あんしんしろ このおれが<line>
+//まとめてダークブレインさまに とどけてやる<sect><line>
+//さあよこせ!!」<sect><end>
+"Bwahahah! Thanks for<line>
+doing the hard work for<line>
+me!<sect><line>
+Once I have all the<line>
+Capsules, I'll present<line>
+them to Master Dark Brain!<sect><line>
+C'mon! Gimme gimme!"<sect><end>
+
+//[$02F092]
+#EMBWRITE($0021)
+//「ひさしぶりやな SD! わざわざカプセルを<line>
+//もってきよるとは れいをいうたるわ」<sect><clear>
+//「だれがおまえにわたすといった さあ<line>
+//さいごのひとつを<line>
+//おとなしくこっちによこせ!」<sect><clear>
+//「アホかワレ だれにむかって<line>
+//そんなくちきいとるんや<sect><clear>
+//ふっかつし ハイパーダークブレインとして<line>
+//うまれかわったわしを<line>
+//なめとるな? いてこましたる しねい!」<sect><end>
+"It's been a while,<line>
+Super Dolts!<sect><line>
+Thanks for collecting<line>
+the Capsules for me!"<sect><clear>
+"We'll never give them to<line>
+you! YOU're gonna give us<line>
+the last one!"<sect><clear>
+"You have no idea who<line>
+you're messing with!<sect><clear>
+I'm not the Dark Brain you<line>
+remember.<sect><line>
+I am Hyper Dark Brain!<line>
+And you? You are DEAD!"<sect><end>
+
+//[$02F13B]
+#EMBWRITE($0022)
+//「くそ おぼえとれや! わしはまたくるで<line>
+//かならず,,,」<sect><end>
+"Urgh! Darn you! I'll be<line>
+back someday! You'll see!!"<sect><end>
+
+//[$02F15A]
+#EMBWRITE($0023)
+//「ハハハッ<line>
+//わしらがここへ ひきよせたとはしらずに!<line>
+//さあ カプセルをおいて さっさとかえれ!」<sect><end>
+"Hahahah! My plan worked<line>
+perfectly! Now give me<line>
+those Capsules!"<sect><end>
+
+//[$02F18C]
+#EMBWRITE($0024)
+//「わたしはクリスタルドラグーン<line>
+//タロウをたすけにきたのか?<line>
+//ならばカプセルと こうかんだ さあよこせ!」<sect><end>
+"I am Crystal Dragoon.<sect><line>
+If you want to save Taro,<line>
+you'll have to give me<line>
+the Capsules.<sect><line>
+What are you waiting for?<line>
+Give them to me!"<sect><end>
+
+//[$02F1C2]
+#EMBWRITE($0025)
+//「ん? なんだきさま! あっダークブレイン!!<line>
+//ええいはなせ!!」<sect><clear>
+//「フンッ よくもこのわしをコケにしてくれたな<line>
+//わしもワルやが ワレのようなワルは<line>
+//はじめてみたで!<sect><line>
+//おいSD! さがっときい! ええか おとこの<line>
+//ほんとうのしにざまっちゅうのをみせたる!」<sect><line>
+//「おい はなせ!まさかおまえっ<line>
+//やっやめろ!!」<sect><end>
+"Who--? D-Dark Brain?!<line>
+Unhand me!!"<sect><clear>
+"Looks like this lowly<line>
+pawn put you in check!<sect><line>
+I may be a villain, but<line>
+now I know what True Evil<line>
+looks like!<sect><line>
+Hey, Super Dolts! Stay<line>
+back, and watch how a real<line>
+man goes out!"<sect><line>
+"You can't mean--?!<line>
+Unhand me!!<line>
+NOOOO!"<sect><end>
+
+//[$02F260]
+#EMBWRITE($0026)
+//コノフネハ タダイマヨリ ツキヘ ムカイマス<sect><end>
+THIS VESSEL IS CURRENTLY<line>
+HEADED FOR THE MOON<sect><end>
+
+//[$02F278]
+#EMBWRITE($0027)
+//コノフネハ タダイマヨリ<line>
+//カイテイニ フジチャク シマス<sect><end>
+THIS VESSEL IS PERFORMING<line>
+AN EMERGENCY LANDING OVER<line>
+THE OCEAN<sect><end>
+
+//[$02F296]
+#EMBWRITE($0028)
+//コノフネハ タダイマヨリ<line>
+//ジャングルニ フジチャク シマス<sect><end>
+THIS VESSEL IS PERFORMING<line>
+AN EMERGENCY LANDING OVER<line>
+THE JUNGLE<sect><end>
+
+//[$02F2B5]
+#EMBWRITE($0029)
+//「ん? なんや あしばがないやんけ ちょいまち<line>
+//いま もとにもどしたるわ ウリャ!!」<sect><end>
+"Hm? Why's the platform so<line>
+small? That won't do!<sect><line>
+Hold on, I'll make it<line>
+bigger. Hyah!"<sect><end>
+
+//[$02F2E2]
+#EMBWRITE($002A)
+//バルタン<line>
+//せんとういん<$E6><$78><$00><end>
+Baltan<line>
+Combatman<$E6><$78><$00><end>
+
+//[$02F2F1]
+#EMBWRITE($002B)
+//ベルガダラス<$E6><$78><$00><end>
+Berga Dalas<$E6><$78><$00><end>
+
+//[$02F2FB]
+#EMBWRITE($002C)
+//ザク<line>
+//ドム<$E6><$78><$00><end>
+Zaku<line>
+Dom<$E6><$78><$00><end>
+
+//[$02F304]
+#EMBWRITE($002D)
+//レッドキング<$E6><$78><$00><end>
+Red King<$E6><$78><$00><end>
+
+//[$02F30E]
+#EMBWRITE($002E)
+//メフィラス<$E6><$78><$00><end>
+Mefilas<$E6><$78><$00><end>
+
+//[$02F317]
+#EMBWRITE($002F)
+//ハンブラビ<$E6><$78><$00><end>
+Hambrabi<$E6><$78><$00><end>
+
+//[$02F320]
+#EMBWRITE($0030)
+//じゅうめんき<$E6><$78><$00><end>
+Ten-Faced Demon<$E6><$78><$00><end>
+
+//[$02F32A]
+#EMBWRITE($0031)
+//ハイゴッグ<line>
+//キュルキュルテン<line>
+//ナマズギラー<$E6><$78><$00><end>
+Hygogg<line>
+Culculten<line>
+Namazugiller<$E6><$78><$00><end>
+
+//[$02F343]
+#EMBWRITE($0032)
+//ゴーデス<$E6><$78><$00><end>
+Gudis<$E6><$78><$00><end>
+
+//[$02F34B]
+#EMBWRITE($0033)
+//グドン<$E6><$78><$00><end>
+Gudon<$E6><$78><$00><end>
+
+//[$02F352]
+#EMBWRITE($0034)
+//シャドームーン<$E6><$78><$00><end>
+Shadow Moon<$E6><$78><$00><end>
+
+//[$02F35D]
+#EMBWRITE($0035)
+//モチロン<line>
+//デナンゾン<$E6><$78><$00><end>
+Mochiron<line>
+Den'an Zon<$E6><$78><$00><end>
+
+//[$02F36B]
+#EMBWRITE($0036)
+//スカルナイト<$E6><$78><$00><end>
+Skull Knight<$E6><$78><$00><end>
+
+//[$02F375]
+#EMBWRITE($0037)
+//ガマボイラー<line>
+//ザクレロ<$E6><$78><$00><end>
+Toad Boiler<line>
+Zakrello<$E6><$78><$00><end>
+
+//[$02F384]
+#EMBWRITE($0038)
+//クリスタルドラグーン<$E6><$78><$00><end>
+Crystal Dragoon<$E6><$78><$00><end>
+
+//[$02F392]
+#EMBWRITE($0039)
+//アントラー<line>
+//デザートドム<$E6><$78><$00><end>
+Antlar<line>
+Desert Dom<$E6><$78><$00><end>
+
+//[$02F3A2]
+#EMBWRITE($003A)
+#EMBWRITE($003B)
+//デブデダビデ<$E6><$78><$00><end>
+Debudedabide<$E6><$78><$00><end>
+
+//[$02F3AC]
+#EMBWRITE($003C)
+//イカルス<line>
+//スノードム<$E6><$78><$00><end>
+Icarus<line>
+Snow Dom<$E6><$78><$00><end>
+
+//[$02F3BA]
+#EMBWRITE($003D)
+//ハイパーダークブレイン<$E6><$78><$00><end>
+Hyper Dark Brain<$E6><$78><$00><end>
+
+//[$02F3C9]
+#EMBWRITE($003E)
+//ザンエル<$E6><$78><$00><end>
+XN-L<$E6><$78><$00><end>
+
+//[$02F3D1]
+#EMBWRITE($003F)
+//<$E7><$0D><$05><$E6><$DC><$00>「あら きがついた?」<sect><clear>
+//<$E7><$38><$07><$E6><$8C><$00>「ここは?<line>
+//きみがかいほうしてくれたのか?<line>
+//<$E6><$78><$00>あっ」<sect><clear>
+//<$E7><$13><$05><$E6><$14><$00>「あら そのカプセル みたことがあるわ」<line>
+//「えっ きみ これをしっているのか!?」<sect><clear>
+//「ええ このさきにあるピラミッドのなかに おなじものが まつられているわよ だけどそこは<line>
+//デブデダビデと そのてしたが ほういして<line>
+//いまはもうだれも ちかづけないわ」<sect><clear>
+//<$E7><$3B><$07><$E6><$14><$00>「ちっ またさきをこされた! いくぞ!」<line>
+//「まって そのからだじゃ,,,」<sect><clear>
+//「だいじょうぶ どうもありがとう」<line>
+//「さっ さきをいそごう!!」<sect><end>
+<$E7><$0D><$05><$E6><$DC><$00>
+"Oh, you're waking up!"<sect><clear>
+<$E7><$38><$07><$E6><$8C><$00>
+"Where are we?<line>
+Did you save us?<line>
+<$E6><$78><$00>Hey!"<sect><clear>
+<$E7><$13><$05><$E6><$14><$00>
+"Is that a Capsule? It<line>
+looks just like the<line>
+other one."<sect><line>
+"What? You've seen another<line>
+Capsule?"<sect><clear>
+"Yes. You see that pyramid?<line>
+There's one like it<line>
+enshrined within.<sect><line>
+But Debudedabide sent his<line>
+minions there, and they<line>
+aren't letting anyone<line>
+near."<sect><clear>
+<$E7><$3B><$07><$E6><$14><$00>
+"Hmph. Late again...<line>
+Let's go!"<sect><line>
+"Wait! You need to rest!"<sect><clear>
+"Don't worry, we're fine.<line>
+Thank you."<line>
+"Come on, let's hurry!"<sect><end>
+
+//[$02F4DD]
+#EMBWRITE($0040)
+//「なかなか やるではないか あそびはここまでだ」<sect><end>
+"You're pretty good...<line>
+But playtime is over."<sect><end>
+
+#JMP($80180, $8026B)
+
+
+#W16($80020)
+#W16($80070)
+#W16($80072)
+#W16($8007A)
+#W16($8007E)
+#W16($80086)
+#W16($80088)
+#W16($8008A)
+#W16($8008C)
+#W16($8008E)
+#W16($80090)
+#W16($80092)
+#W16($80094)
+#W16($80096)
+#W16($80098)
+#W16($8009A)
+#W16($8009C)
+#W16($8009E)
+#W16($800A0)
+#W16($800A2)
+#W16($800A4)
+#W16($800A6)
+#W16($800A8)
+#W16($800AA)
+#W16($800AC)
+#W16($800AE)
+#W16($800B0)
+#W16($800B2)
+#W16($800B4)
+#W16($800B6)
+#W16($800B8)
+#W16($800BA)
+#W16($800BC)
+#W16($800BE)
+#W16($800E0)
+#W16($800E2)
+#W16($800E4)
+#W16($800E6)
+#W16($800E8)
+#W16($800EA)
+#W16($800EC)
+#W16($800EE)
+#W16($800F0)
+#W16($800F2)
+#W16($800F4)
+#W16($800F6)
+#W16($800F8)
+#W16($800FA)
+#W16($800FC)
+#W16($800FE)
+#W16($80100)
+#W16($80102)
+#W16($80104)
+#W16($80106)
+#W16($80108)
+#W16($8010A)
+#W16($8010C)
+#W16($8010E)
+#W16($80110)
+#W16($80112)
+#W16($80114)
+#W16($80116)
+#W16($80118)
+#W16($8011A)
+#W16($8011C)
+#W16($8011E)
+#W16($80120)
+#W16($80122)
+#W16($80124)
+#W16($80126)
+#W16($80128)
+#W16($8012A)
+#W16($8012C)
+#W16($8012E)
+#W16($80130)
+#W16($80132)
+#W16($80134)
+#W16($80136)
+#W16($80138)
+#W16($8013A)
+#W16($8013C)
+#W16($8013E)
+#W16($80140)
+#W16($80142)
+#W16($80144)
+#W16($80146)
+#W16($80148)
+#W16($8014A)
+#W16($8014C)
+#W16($8014E)
+#W16($80150)
+#W16($80152)
+#W16($80154)
+#W16($80156)
+#W16($80158)
+#W16($8015A)
+#W16($8015C)
+#W16($8015E)
+#W16($80160)
+#W16($80162)
+#W16($80164)
+#W16($80166)
+#W16($80168)
+#W16($8016A)
+#W16($8016C)
+#W16($8016E)
+#W16($80170)
+#W16($80172)
+#W16($80174)
+#W16($80176)
+#W16($80178)
+#W16($8017A)
+#W16($8017C)
+#W16($8017E)
+<$01> 
+
+//[$080182]
+#W16($80022)
+#W16($8007C)
+//Fー91
+<$04>F-91
+
+//[$080187]
+#W16($80024)
+#W16($80080)
+//ライダー
+<$05>Rider
+
+//[$08018D]
+#W16($80026)
+#W16($80082)
+//ウルトラマンG
+<$0A>Ultraman G
+
+//[$080195]
+#W16($80028)
+#W16($8002A)
+#W16($8002C)
+#W16($8002E)
+#W16($80030)
+#W16($80032)
+#W16($80034)
+#W16($80036)
+#W16($80038)
+#W16($8003A)
+#W16($8003C)
+#W16($8003E)
+#W16($80084)
+//ロア
+<$04>Roar
+
+//[$080198]
+#W16($80040)
+#W16($800D6)
+#W16($800D8)
+#W16($800DA)
+#W16($800DC)
+#W16($800DE)
+//バルタン
+<$06>Baltan
+
+//[$08019E]
+#W16($80042)
+#W16($80044)
+#W16($80046)
+//ザク
+<$04>Zaku
+
+//[$0801A2]
+#W16($80048)
+#W16($8004A)
+#W16($8004C)
+//せんとういん
+<$09>Combatman
+
+//[$0801A9]
+#W16($8004E)
+#W16($80050)
+#W16($80052)
+#W16($80074)
+#W16($80076)
+//ドム
+<$03>Dom
+
+//[$0801AD]
+#W16($80054)
+#W16($80056)
+//レッドキング
+<$08>Red King
+
+//[$0801B6]
+#W16($80058)
+//グドン
+<$05>Gudon
+
+//[$0801BC]
+#W16($8005A)
+#W16($8005C)
+//ハイゴッグ
+<$06>Hygogg
+
+//[$0801C4]
+#W16($8005E)
+//アントラー
+<$06>Antlar
+
+//[$0801CA]
+#W16($80060)
+//ザクレロ
+<$08>Zakrello
+
+//[$0801D0]
+#W16($80062)
+//デナンゾン
+<$0A>Den'an Zon
+
+//[$0801D8]
+#W16($80064)
+//モチロン
+<$08>Mochiron
+
+//[$0801DD]
+#W16($80066)
+//ガマボイラー
+<$0B>Toad Boiler
+
+//[$0801E6]
+#W16($80068)
+//ハンブラビ
+<$08>Hambrabi
+
+//[$0801EE]
+#W16($8006A)
+//ナマズギラー
+<$0C>Namazugiller
+
+//[$0801F7]
+#W16($8006C)
+//キュルキュルテン
+<$09>Culculten
+
+//[$080200]
+#W16($8006E)
+//イカルス
+<$06>Icarus
+
+//[$080205]
+#W16($80078)
+//シャドームーン
+<$0B>Shadow Moon
+
+//[$08020E]
+#W16($800C6)
+#W16($800C8)
+//H ダークブレイン
+<$0C>H Dark Brain
+
+//[$08021A]
+#W16($800C0)
+//メフィラス
+<$07>Mefilas
+
+//[$080220]
+//#W16($800C8)
+//H ダークブレイン
+//<$0C>H Dark Brain
+
+//[$08022C]
+#W16($800C2)
+//ベルガダラス
+<$0B>Berga Dalas
+
+//[$080236]
+#W16($800CC)
+//ゴーデス
+<$05>Gudis
+
+
+//[$08023D]
+#W16($800CE)
+//し<$2F>ゅうめんき
+<$0C>TenFaceDemon
+
+#JMP($87FCB, $87FFF)
+
+//[$080245]
+#W16($800C4)
+#W16($800D4)
+//ザンエル
+<$04>XN-L
+
+//[$08024B]
+#W16($800CA)
+//デブデダビデ
+<$0C>Debudedabide
+
+//[$080258]
+#W16($800D0)
+//スカルナイト
+<$0C>Skull Knight
+
+//[$08025F]
+#W16($800D2)
+//クリスタルドラグーン
+<$0C>Crys.Dragoon
+
+#JMP($7E80,$7FBF)
+
+//$00/D793: A2 B7 D7     LDX #$D7B7                A:0000 X:0000 Y:00A8 D:0000 DB:00 S:03FB P:envMxdizc HC:646 VC:243
+#W16($5794)
+Hard  
+
+//$00/D79E: A2 B3 D7     LDX #$D7B3                A:0000 X:D7B7 Y:00A8 D:0000 DB:00 S:03FB P:envMxdiZc HC:502 VC:243
+#W16($579F)
+Normal
+
+
+//$00/D9D1: A2 E7 D9     LDX #$D9E7                A:0001 X:000A Y:0328 D:0000 DB:00 S:040A P:envMxdiZC HC:444 VC:243
+//$00/D6AC: A2 E7 D9     LDX #$D9E7                A:6D02 X:D9E3 Y:0328 D:0000 DB:00 S:03FB P:envMxdizC HC:222 VC:235
+#W16($59D2)
+#W16($56AD)
+Stereo
+
+//$00/D9CA: A2 E3 D9     LDX #$D9E3                A:0002 X:000A Y:0328 D:0000 DB:00 S:040A P:envMxdizC HC:822 VC:243
+//$00/D6A3: A2 E3 D9     LDX #$D9E3                A:6DA1 X:1800 Y:0328 D:0000 DB:00 S:03FB P:envMxdizc HC:1350 VC:234
+#W16($59CB)
+#W16($56A4)
+Mono  
+
+#JMP($5D2F)
+!
